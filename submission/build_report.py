@@ -256,13 +256,13 @@ def build_report():
     add_heading(doc, "Reflection on learning")
     add_text(
         doc,
-        "This project showed why a smaller, auditable ML system can be more useful than an impressive-sounding black box. The rewarding part was turning a broad “AI for trade” idea into an interface that exposes its evidence and limits. The hardest parts were defining mirror-comparable records, avoiding incompatible HS revisions, and evaluating an unsupervised model without trustworthy fraud labels. The response was to make those constraints part of the product: cache the source data, label comparability, validate with a synthetic sensitivity test, and state what the model cannot conclude. Personalize this paragraph with your own experience before submitting.",
+        "This project showed why a smaller, auditable ML system can be more useful than an impressive-sounding black box. The rewarding part was turning a broad “AI for trade” idea into an interface that exposes its evidence and limits. The hardest parts were defining mirror-comparable records, avoiding incompatible HS revisions, and evaluating an unsupervised model without trustworthy fraud labels. The response was to make those constraints part of the product: cache the source data, label comparability, validate with a synthetic sensitivity test, and state what the model cannot conclude. That experience reinforced the need for transparent, human-in-the-loop AI systems that prioritize evidence over unsupported conclusions.",
     )
 
     add_heading(doc, "Reproducibility and sources")
     add_text(
         doc,
-        "Code, cached acquisition metadata, model configuration, test suite, and dashboard artifact are included in the TradeWatch-LB repository. Primary data source: UN Comtrade public API (comtradeapi.un.org). Method reference: UN Comtrade, Methodology Guide for Comtrade Plus. The project documentation explains its scope decision, assumptions, and prohibited claims.",
+        "Code, cached acquisition metadata, model configuration, test suite, and dashboard artifact are included in the TradeWatch-LB repository. Primary data source: UN Comtrade public API (comtradeapi.un.org). Method reference: UN Comtrade, Methodology Guide for Comtrade Plus. This report and the repository README state the project scope, assumptions, and prohibited claims.",
     )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
