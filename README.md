@@ -14,6 +14,10 @@ make web
 
 The first data run queries the official UN Comtrade public preview API and caches every raw response. Later runs use the cache.
 
+## Project requirements
+
+- [`PRD_ORIGINAL.md`](PRD_ORIGINAL.md): the initial project requirements document. The implementation was updated after feasibility checks, available-data constraints, and the controlled evaluation design; the report and this README describe the final MVP.
+
 ## Outputs
 
 - `artifacts/dashboard.json`: frontend data contract and headline outputs.
