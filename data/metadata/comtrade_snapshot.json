@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-08-17T16:39:21.644990+00:00",
+  "api": "UN Comtrade public/v1/preview",
+  "classification": "H5",
+  "years": [
+    2019,
+    2020,
+    2021
+  ],
+  "cache_files": 90,
+  "cache_sha256": "c4cca9d43121a53d8ea467d10fd1fc4725acf71fdc20f054431e4ec42738716d",
+  "row_counts": {
+    "tradeAnalyzed": "$13.1B",
+    "mirrorPairs": 4931,
+    "highPriority": 62,
+    "partners": 8,
+    "products": 872,
+    "tierA": 4492,
+    "tierB": 439,
+    "tierC": 6023
+  }
+}

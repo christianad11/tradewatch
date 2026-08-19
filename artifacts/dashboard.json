@@ -1,0 +1,646 @@
+{
+  "generatedAt": "2026-08-17T16:39:21.644990+00:00",
+  "source": "UN Comtrade public preview API; HS 2017 (H5); annual data",
+  "scope": "Top 6 import partners per year; 2019\u20132021 feasibility sample",
+  "summary": {
+    "tradeAnalyzed": "$13.1B",
+    "mirrorPairs": 4931,
+    "highPriority": 62,
+    "partners": 8,
+    "products": 872,
+    "tierA": 4492,
+    "tierB": 439,
+    "tierC": 6023
+  },
+  "years": [
+    2019,
+    2020,
+    2021
+  ],
+  "partnersSampled": [
+    156,
+    276,
+    300,
+    380,
+    643,
+    784,
+    792,
+    842
+  ],
+  "anomalies": [
+    {
+      "id": "2020-842-2936",
+      "score": 94.7,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "2936",
+      "product": "Provitamins, vitamins; natural or reproduced by synthesis (including natural concentrates) derivatives thereof used as vitamins, and intermixtures of the fore-going, whether or not in any solvent",
+      "imports": 6646,
+      "exports": 3444365,
+      "gap": 3437719,
+      "gapRatio": 199.2,
+      "tier": "A",
+      "components": {
+        "mirror": 6.7,
+        "temporal": 95.3,
+        "unitValue": 80.3,
+        "modelAgreement": 97.7,
+        "materiality": 96.6
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-380-2711",
+      "score": 94.4,
+      "year": 2019,
+      "partner": "Italy",
+      "partnerCode": 380,
+      "hs": "2711",
+      "product": "Petroleum gases and other gaseous hydrocarbons",
+      "imports": 44198,
+      "exports": 3198555,
+      "gap": 3154356,
+      "gapRatio": 194.5,
+      "tier": "A",
+      "components": {
+        "mirror": 4.9,
+        "temporal": 97.6,
+        "unitValue": 80.8,
+        "modelAgreement": 97.8,
+        "materiality": 96.3
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-842-3912",
+      "score": 94.4,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "3912",
+      "product": "Cellulose and its chemical derivatives, n.e.c. or included, in primary forms",
+      "imports": 987866,
+      "exports": 2798,
+      "gap": 985068,
+      "gapRatio": 198.9,
+      "tier": "A",
+      "components": {
+        "mirror": 6.4,
+        "temporal": 85.8,
+        "unitValue": 96.6,
+        "modelAgreement": 98.4,
+        "materiality": 90.1
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-380-3002",
+      "score": 94.3,
+      "year": 2021,
+      "partner": "Italy",
+      "partnerCode": 380,
+      "hs": "3002",
+      "product": "Human blood; animal blood for therapeutic, prophylactic or diagnostic uses; antisera, other blood fractions, immunological products, modified or obtained by biotechnological processes; vaccines, toxins, cultures of micro-organisms (excluding yeasts) etc",
+      "imports": 27933015,
+      "exports": 1687916,
+      "gap": 26245099,
+      "gapRatio": 177.2,
+      "tier": "A",
+      "components": {
+        "mirror": 2.8,
+        "temporal": 96.6,
+        "unitValue": 93.4,
+        "modelAgreement": 99.3,
+        "materiality": 99.4
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-842-2933",
+      "score": 93.9,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "2933",
+      "product": "Heterocyclic compounds with nitrogen hetero-atom(s) only",
+      "imports": 325811,
+      "exports": 15015,
+      "gap": 310796,
+      "gapRatio": 182.4,
+      "tier": "A",
+      "components": {
+        "mirror": 3.4,
+        "temporal": 99.7,
+        "unitValue": 99.3,
+        "modelAgreement": 99.9,
+        "materiality": 78.2
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-156-3004",
+      "score": 93.8,
+      "year": 2020,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "3004",
+      "product": "Medicaments; (not goods of heading no. 3002, 3005 or 3006) consisting of mixed or unmixed products for therapeutic or prophylactic use, put up in measured doses (incl. those in the form of transdermal admin. systems) or packed for retail sale",
+      "imports": 1878856,
+      "exports": 165903,
+      "gap": 1712953,
+      "gapRatio": 167.5,
+      "tier": "A",
+      "components": {
+        "mirror": 2.7,
+        "temporal": 97.3,
+        "unitValue": 97.4,
+        "modelAgreement": 98.9,
+        "materiality": 93.6
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-842-3822",
+      "score": 93.2,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "3822",
+      "product": "Reagents; diagnostic or laboratory reagents on a backing and prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading no. 3002 or 3006; certified reference material",
+      "imports": 16107098,
+      "exports": 983460,
+      "gap": 15123638,
+      "gapRatio": 177.0,
+      "tier": "A",
+      "components": {
+        "mirror": 3.1,
+        "temporal": 93.1,
+        "unitValue": 90.2,
+        "modelAgreement": 97.4,
+        "materiality": 98.9
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-156-1904",
+      "score": 92.9,
+      "year": 2021,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "1904",
+      "product": "Prepared foods obtained by swelling or roasting cereals or cereal products (e.g. corn flakes); cereals (other than maize (corn)) in grain form or in the form of flakes or other worked grains (not flour and meal), pre-cooked or otherwise prepared, n.e.c.",
+      "imports": 17527,
+      "exports": 522665,
+      "gap": 505138,
+      "gapRatio": 187.0,
+      "tier": "A",
+      "components": {
+        "mirror": 3.2,
+        "temporal": 96.5,
+        "unitValue": 95.7,
+        "modelAgreement": 98.7,
+        "materiality": 84.2
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-842-3814",
+      "score": 92.1,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "3814",
+      "product": "Organic composite solvents and thinners, not elsewhere specified or included; prepared paint or varnish removers",
+      "imports": 85765,
+      "exports": 957771,
+      "gap": 872006,
+      "gapRatio": 167.1,
+      "tier": "A",
+      "components": {
+        "mirror": 2.6,
+        "temporal": 96.4,
+        "unitValue": 95.5,
+        "modelAgreement": 98.3,
+        "materiality": 89.3
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-792-1601",
+      "score": 92.0,
+      "year": 2021,
+      "partner": "T\u00fcrkiye",
+      "partnerCode": 792,
+      "hs": "1601",
+      "product": "Sausages and similar products of meat, meat offal or blood; food preparations based on these products",
+      "imports": 23481,
+      "exports": 1702992,
+      "gap": 1679511,
+      "gapRatio": 194.6,
+      "tier": "A",
+      "components": {
+        "mirror": 4.1,
+        "temporal": 85.8,
+        "unitValue": 93.7,
+        "modelAgreement": 93.4,
+        "materiality": 93.5
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-842-1005",
+      "score": 91.9,
+      "year": 2021,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "1005",
+      "product": "Maize (corn)",
+      "imports": 17390931,
+      "exports": 498565,
+      "gap": 16892366,
+      "gapRatio": 188.9,
+      "tier": "A",
+      "components": {
+        "mirror": 3.6,
+        "temporal": 94.6,
+        "unitValue": 74.0,
+        "modelAgreement": 97.5,
+        "materiality": 99.0
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-156-2930",
+      "score": 91.8,
+      "year": 2019,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "2930",
+      "product": "Organo-sulphur compounds",
+      "imports": 10619,
+      "exports": 453635,
+      "gap": 443016,
+      "gapRatio": 190.9,
+      "tier": "A",
+      "components": {
+        "mirror": 4.3,
+        "temporal": 93.9,
+        "unitValue": 90.5,
+        "modelAgreement": 93.4,
+        "materiality": 82.7
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-380-1003",
+      "score": 91.4,
+      "year": 2021,
+      "partner": "Italy",
+      "partnerCode": 380,
+      "hs": "1003",
+      "product": "Barley",
+      "imports": 1175054,
+      "exports": 26168,
+      "gap": 1148886,
+      "gapRatio": 191.3,
+      "tier": "A",
+      "components": {
+        "mirror": 3.8,
+        "temporal": 95.0,
+        "unitValue": 76.4,
+        "modelAgreement": 97.0,
+        "materiality": 91.2
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-842-3401",
+      "score": 91.3,
+      "year": 2020,
+      "partner": "USA",
+      "partnerCode": 842,
+      "hs": "3401",
+      "product": "Soap; organic surface-active preparations used as soap, skin washing, in bars, cakes, moulded pieces, shapes, liquid or cream, containing soap or not; for retail, paper, wadding, felt and nonwovens, impregnated, coated or covered with soap or detergent",
+      "imports": 297892,
+      "exports": 23782,
+      "gap": 274110,
+      "gapRatio": 170.4,
+      "tier": "A",
+      "components": {
+        "mirror": 2.8,
+        "temporal": 96.4,
+        "unitValue": 97.8,
+        "modelAgreement": 98.8,
+        "materiality": 76.5
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-300-3302",
+      "score": 90.8,
+      "year": 2021,
+      "partner": "Greece",
+      "partnerCode": 300,
+      "hs": "3302",
+      "product": "Odoriferous substances and mixtures (including alcoholic solutions) with a basis of one or more of these substances, of a kind used as raw materials in industry; other preparations based on odoriferous substances, of a kind used for beverage manufacture",
+      "imports": 23989,
+      "exports": 341807,
+      "gap": 317818,
+      "gapRatio": 173.8,
+      "tier": "A",
+      "components": {
+        "mirror": 2.5,
+        "temporal": 99.7,
+        "unitValue": 95.3,
+        "modelAgreement": 97.7,
+        "materiality": 78.4
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-156-3822",
+      "score": 90.1,
+      "year": 2019,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "3822",
+      "product": "Reagents; diagnostic or laboratory reagents on a backing and prepared diagnostic or laboratory reagents whether or not on a backing, other than those of heading no. 3002 or 3006; certified reference material",
+      "imports": 1760754,
+      "exports": 253492,
+      "gap": 1507262,
+      "gapRatio": 149.7,
+      "tier": "A",
+      "components": {
+        "mirror": 2.1,
+        "temporal": 95.1,
+        "unitValue": 90.6,
+        "modelAgreement": 96.2,
+        "materiality": 92.9
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-156-1209",
+      "score": 89.9,
+      "year": 2019,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "1209",
+      "product": "Seeds, fruit and spores; of a kind used for sowing",
+      "imports": 6929530,
+      "exports": 179972,
+      "gap": 6749558,
+      "gapRatio": 189.9,
+      "tier": "A",
+      "components": {
+        "mirror": 4.1,
+        "temporal": 63.3,
+        "unitValue": 98.0,
+        "modelAgreement": 98.6,
+        "materiality": 98.1
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-156-6101",
+      "score": 89.8,
+      "year": 2019,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "6101",
+      "product": "Coats; men's or boys' overcoats, car-coats, capes, cloaks, anoraks, ski-jackets, wind-cheaters, wind-jackets and similar articles; knitted or crocheted, other than those of heading no. 6103",
+      "imports": 359428,
+      "exports": 3157,
+      "gap": 356271,
+      "gapRatio": 196.5,
+      "tier": "A",
+      "components": {
+        "mirror": 5.3,
+        "temporal": 82.5,
+        "unitValue": 88.3,
+        "modelAgreement": 95.1,
+        "materiality": 80.0
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "At least one quantity/value record carries an estimation flag",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-300-2715",
+      "score": 89.7,
+      "year": 2019,
+      "partner": "Greece",
+      "partnerCode": 300,
+      "hs": "2715",
+      "product": "Bituminous mixtures based on natural asphalt; on natural bitumen, on petroleum bitumen, on mineral tar or on mineral tar pitch (e.g. bituminous mastics, cut-backs)",
+      "imports": 21528250,
+      "exports": 106283,
+      "gap": 21421967,
+      "gapRatio": 198.0,
+      "tier": "A",
+      "components": {
+        "mirror": 5.9,
+        "temporal": 90.7,
+        "unitValue": 51.4,
+        "modelAgreement": 98.0,
+        "materiality": 99.2
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2020-300-3925",
+      "score": 89.3,
+      "year": 2020,
+      "partner": "Greece",
+      "partnerCode": 300,
+      "hs": "3925",
+      "product": "Plastics; builders' wares n.e.c. or included",
+      "imports": 3537,
+      "exports": 95242,
+      "gap": 91705,
+      "gapRatio": 185.7,
+      "tier": "A",
+      "components": {
+        "mirror": 3.5,
+        "temporal": 96.1,
+        "unitValue": 94.6,
+        "modelAgreement": 97.5,
+        "materiality": 59.4
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-380-2912",
+      "score": 89.3,
+      "year": 2019,
+      "partner": "Italy",
+      "partnerCode": 380,
+      "hs": "2912",
+      "product": "Aldehydes, whether or not with other oxygen function; cyclic polymers of aldehydes; paraformaldehyde",
+      "imports": 4362,
+      "exports": 237690,
+      "gap": 233328,
+      "gapRatio": 192.8,
+      "tier": "A",
+      "components": {
+        "mirror": 4.6,
+        "temporal": 98.7,
+        "unitValue": 70.7,
+        "modelAgreement": 96.0,
+        "materiality": 74.2
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-156-1212",
+      "score": 89.2,
+      "year": 2021,
+      "partner": "China",
+      "partnerCode": 156,
+      "hs": "1212",
+      "product": "Locust beans, seaweeds and other algae, sugar beet, sugar cane, fresh, chilled, frozen or dried, whether or not ground; fruit stones, kernels and other vegetable products (including unroasted chicory roots) used primarily for human consumption, n.e.c.",
+      "imports": 18441,
+      "exports": 5264761,
+      "gap": 5246320,
+      "gapRatio": 198.6,
+      "tier": "A",
+      "components": {
+        "mirror": 5.4,
+        "temporal": 94.5,
+        "unitValue": 50.8,
+        "modelAgreement": 95.0,
+        "materiality": 97.5
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2021-792-6106",
+      "score": 89.2,
+      "year": 2021,
+      "partner": "T\u00fcrkiye",
+      "partnerCode": 792,
+      "hs": "6106",
+      "product": "Blouses, shirts and shirt-blouses; women's or girls', knitted or crocheted",
+      "imports": 8300565,
+      "exports": 663914,
+      "gap": 7636651,
+      "gapRatio": 170.4,
+      "tier": "A",
+      "components": {
+        "mirror": 2.6,
+        "temporal": 87.9,
+        "unitValue": 87.3,
+        "modelAgreement": 91.5,
+        "materiality": 98.3
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "At least one quantity/value record carries an estimation flag",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    },
+    {
+      "id": "2019-380-3911",
+      "score": 89.1,
+      "year": 2019,
+      "partner": "Italy",
+      "partnerCode": 380,
+      "hs": "3911",
+      "product": "Petroleum resins, coumarone-indene resins, polyterpenes, polysulphides, polysulphones and similar products of chemical synthesis n.e.c. in chapter 39, in primary forms",
+      "imports": 3041,
+      "exports": 1127544,
+      "gap": 1124502,
+      "gapRatio": 198.9,
+      "tier": "A",
+      "components": {
+        "mirror": 6.8,
+        "temporal": 93.3,
+        "unitValue": 65.8,
+        "modelAgreement": 86.4,
+        "materiality": 91.0
+      },
+      "caveats": [
+        "CIF/FOB valuation may explain part of the difference",
+        "Routing, re-exports, timing, or partner attribution may contribute"
+      ]
+    }
+  ],
+  "validation": {
+    "injected": 80,
+    "stable_reference_n": 1694,
+    "severity": "5\u00d7 one-sided value perturbation on historically close mirror pairs",
+    "recall_at_1pct": 1.0,
+    "recall_at_5pct": 1.0,
+    "mean_percentile": 100.0
+  },
+  "claims": {
+    "allowed": "Statistically unusual flows prioritized for contextual investigation.",
+    "forbidden": "An anomaly is not evidence of fraud, smuggling, tax loss, or wrongdoing."
+  }
+}

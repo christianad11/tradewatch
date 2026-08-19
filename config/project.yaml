@@ -1,0 +1,13 @@
+project_name: TradeWatch-LB
+reporter_m49: 422
+classification: H5
+years: [2019, 2020, 2021]
+top_partners: 6
+minimum_trade_value_usd: 100000
+seed: 42
+priority_score:
+  mirror: 0.30
+  temporal: 0.20
+  unit_value: 0.15
+  ensemble: 0.20
+  materiality: 0.15
